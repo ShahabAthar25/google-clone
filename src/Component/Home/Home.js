@@ -2,10 +2,12 @@ import React from 'react'
 
 import './Home.css'
 
-function Home() {
+import Navabr from './Navbar/Navber'
+
+function Home({auth}) {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className="home">
+            <Navabr auth={auth} />
         </div>
     )
 }
